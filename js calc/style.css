@@ -1,0 +1,69 @@
+/* Set standards */
+html {
+	margin: 0;
+	padding: 0;
+	font: bold 22px Arial, sans-serif;
+}
+
+/* style calculator. Set width, color, round corners, shadow, etc. */
+#calc {
+	margin: auto;
+	padding: 15px;
+	width: 305px;
+	background: #33CC99;
+	border-radius: 30px;
+	box-shadow: 4px 4px #339988;
+}
+
+/* style text box. Set color, height, round corners, font size and color, etc. */
+#text {
+	height: 69px;
+	margin: 0px 0px 10px 0px;
+	padding: 0px 15px;
+	background: rgba(0,0,0,0.2);
+	border-radius: 20px;
+	box-shadow: inset 4px 4px rgba(0,0,0,0.2);
+	font-size: 20px;
+	color: rgba(0,0,0,0.6);
+	text-align: right
+}
+
+/* style buttons. set size, color, font size and color, round corners, etc. */
+.buttons input {
+	margin: 0px 0px 6px 0px;
+	height: 45px;
+	width: 55px;
+	color: white;
+	background: #6495ED;
+	border-radius: 5px;
+	font-size: 17px;
+}
+
+/* set color of memoty buttons */
+.buttons #Mbuttons input {
+	background: #EEAA66;
+}
+
+/* changed font size of output */
+#screen_output {
+	font-size: 18px;
+	padding: 5px;
+}
+
+/* changed font size of input */
+#screen_input {
+	font-size: 25px;
+}
+
+/* made equals button larger, and changed color */
+.buttons .equals {
+	width: 116px;
+	color: white;
+	background: #9370DB
+}
+
+/* changed color and font of number buttons */
+.buttons .nums {
+	background: #FF8899;
+	font-weight: bolder;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+		<script language="javascript" type="text/javascript" src="calc.js">
+		</script>
+	</head>
+	<body>
+		<div id="calc">
+			<FORM NAME="Calc">
+				<TABLE>
+					<TR>
+						<div id="text">
+							<div id="screen_output"> </div>
+							<div id="screen_input"></div>
+						</div>
+					</TR>
+					<TR>
+						<TD>
+							<div class="buttons">
+								<div id="Mbuttons">
+									<INPUT TYPE="button" NAME="MC"   VALUE="MC" OnClick="buttonClicked(this)">
+									<INPUT TYPE="button" NAME="MR"   VALUE="MR" OnClick="buttonClicked(this)"> 
+									<INPUT TYPE="button" NAME="MS" VALUE="MS" OnClick="buttonClicked(this)"> 
+									<INPUT TYPE="button" NAME="M+" VALUE="M+" OnClick="buttonClicked(this)"> 
+									<INPUT TYPE="button" NAME="M-" VALUE="M-" OnClick="buttonClicked(this)">
+								</div>
+								<INPUT TYPE="button" NAME="backspace" VALUE="&#8592;" OnClick="buttonClicked(this)">
+								<INPUT TYPE="button" NAME="leftparen" VALUE="(" OnClick="buttonClicked(this)">
+								<INPUT TYPE="button" NAME="rightparen" VALUE=")" OnClick="buttonClicked(this)">
+								<INPUT TYPE="button" NAME="PosNeg"   VALUE=" +/- " OnClick="buttonClicked(this)"> 
+								<INPUT TYPE="button" NAME="times" VALUE="/" OnClick="buttonClicked(this)">
+								<INPUT TYPE="button" NAME="repricocal" VALUE="1/x" OnClick="buttonClicked(this)">
+								<INPUT class="nums" TYPE="button" NAME="seven" VALUE="7" OnClick="buttonClicked(this)"> 
+								<INPUT class="nums" TYPE="button" NAME="eight" VALUE="8" OnClick="buttonClicked(this)"> 
+								<INPUT class="nums" TYPE="button" NAME="nine"  VALUE="9" OnClick="buttonClicked(this)">
+								<INPUT TYPE="button" NAME="multiply" VALUE="*" OnClick="buttonClicked(this)">
+								<INPUT TYPE="button" NAME="SqRoot"   VALUE="&radic;" OnClick="buttonClicked(this)"> 
+								<INPUT class="nums" TYPE="button" NAME="four"  VALUE="4" OnClick="buttonClicked(this)">
+								<INPUT class="nums" TYPE="button" NAME="five"  VALUE="5" OnClick="buttonClicked(this)">
+								<INPUT class="nums" TYPE="button" NAME="six"   VALUE="6" OnClick="buttonClicked(this)">
+								<INPUT TYPE="button" NAME="minus"  VALUE="-" OnClick="buttonClicked(this)">
+								<INPUT TYPE="button" NAME="ClearAll"   VALUE="C" OnClick="buttonClicked(this)"> 
+								<INPUT class="nums" TYPE="button" NAME="one" VALUE="1" OnClick="buttonClicked(this)">
+								<INPUT class="nums" TYPE="button" NAME="two"   VALUE="2" OnClick="buttonClicked(this)">
+								<INPUT class="nums" TYPE="button" NAME="three" VALUE="3" OnClick="buttonClicked(this)">
+								<INPUT TYPE="button" NAME="plus"   VALUE="+" OnClick="buttonClicked(this)">
+								<INPUT TYPE="button" NAME="ClearEntry"   VALUE="CE"OnClick="buttonClicked(this)"> 
+								<INPUT TYPE="button" NAME="decimal"  VALUE="." OnClick="buttonClicked(this)">
+								<INPUT class="nums" TYPE="button" NAME="zero"  VALUE="0" OnClick="buttonClicked(this)">
+								<INPUT class="equals" TYPE="button" NAME="equal"   VALUE="=" OnClick="buttonClicked(this)">
+							</div>
+						</TD>
+					</TR>
+				</TABLE>
+			</FORM>
+		</div>
+	</body>
+</html>
+
